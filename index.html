@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<img src="img/image_2.jpeg" alt="">
+			<h2 class="logo">Frisco</h2>
+		</header>
+
+		<div class="center">
+			<div class="main">
+				<div class="textBig">
+					<h2>Let's Get Started</h2>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla veniam asperiores minus officia ut, neque totam repudiandae quibusdam provident veritatis, officiis, repellendus consequuntur. Deleniti cum magnam ex, quam et nisi.</p>
+					<button class="btnLogin-popup">Login</button>
+				</div>
+				
+			</div>
+	
+			<div class="wrapper">
+				<span class="icon-close">
+					<ion-icon name="close"></ion-icon>
+				</span>
+	
+				<div class="form-box register">
+					<h2>Registration</h2>
+	
+					<form action="#">
+	
+						<div class="input-box">
+							<span class="icon"><ion-icon name="person"></ion-icon></span>
+							<input type="text" name="" id="" placeholder="First name" required>
+							<!-- <label for="text"></label> -->
+						</div>
+	
+						<div class="input-box">
+							<span class="icon"><ion-icon name="mail"></ion-icon></span>
+							<input type="email" name="" id="" placeholder="Email" required>
+							<label for="email"></label>
+						</div>
+	
+						<div class="input-box">
+							<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+							<input type="password" placeholder="Password" required>
+							<label for="password"></label>
+						</div>
+	
+						<div class="input-box">
+							<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+							<input type="password" placeholder="Re-enter Password" required>
+							<label for="password"></label>
+						</div>
+	
+						<div class="remember-forgot">
+							<label for="">
+								<input type="checkbox">
+							I agree to the terms & conditions</label>
+						</div>
+						
+	
+						<div>
+							<button type="submit" class="btn" onclick="openPopup()">Register</button>
+							<div class="popup" id="popup">
+								<img src="img/image_1.jpeg" alt="">
+								<h2>Thank You</h2>
+								<p>your details have been successfully Submitted. Thanks</p>
+								<button type="button" onclick="closePopup()">OK</button>
+							</div>
+						</div>
+	
+					</form>
+				</div>
+			</div>
+		</div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
